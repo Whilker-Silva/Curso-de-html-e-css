@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Desafios/Desafio006/imagens/icone-HTML.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+
+    <!--Imagens-->
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários disposivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador.</p>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-G.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-P.png" alt="Imagem flexível">
+    </picture>
+
+    <!--Áudios-->
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a Reproduzir áudios em HTML5</p>
+
+    <audio preload="metadata" controls>
+        <source src="midias/Voz 004.mp3" type="audio/mpeg">
+        <p>Infelizmente se navegador não pode repor o seu áudio <a href="midias/Voz 004.mp3" target="blanck"
+                download="Voz 004.mp3" type="aplicativo/mpeg4">Clique aqui para baixar o arquivo em mp3</a></p>
+    </audio>
+
+    <!--Vídeos-->
+    <h1>Reproduzindo vídeos</h1>
+    <p>Vamos aprender a Reproduzir vídeos em HTML5 que estão hospedados localmente</p>
+
+    <video width="500" controls>
+        <source src="midias/Video-Passinho-Debochado-1.mp4" type="video/mp4">
+        <source src="midias/Video-Passinho-Debochado-1.m4v" type="video/mp4">
+        <source src="midias/Video-Passinho-Debochado-1.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos <a
+                href="midias/Video-Passinho-Debochado-1.mp4" target="blanck" download="Video-Passinho-Debochado-1.mp4"
+                type="application/mp4">Clique aqui para baixar</a></p>
+    </video>
+</body>
+
+</html>
