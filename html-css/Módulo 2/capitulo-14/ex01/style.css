@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body {
-    font-family: Arial, Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 102, 255, 0.616);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 102, 255, 0.486);
+    font-size: 1em;
 }
 
 main {
@@ -14,8 +15,25 @@ main {
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
-    color: rgb(57, 57, 221);
+    font-size: 2em;
+    color: rgb(46, 46, 170);
     text-align: center;
+    font-weight: bolder;
 }
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: rgb(46, 46, 170);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;  
+    font-weight: normal;
+
+
+    text-align: justify;
+}
+
 
