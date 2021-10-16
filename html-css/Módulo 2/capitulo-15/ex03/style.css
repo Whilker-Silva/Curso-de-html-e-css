@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;    
+    text-align: center;  
+}
+
+div:hover{
+    color: red;    
+}
+
+
+div > p{
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+}
