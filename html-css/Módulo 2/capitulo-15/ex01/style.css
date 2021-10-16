@@ -5,36 +5,35 @@ Em HTML é class = em CSS é .
 */
 
 body {
-    background-color: rgba(128, 243, 124, 0.459);
+    background-color: #DAF5E6;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgb(104, 50, 29);
-    text-align: center;
-}
-
-h2 {
     font-size: 1.8em;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(145, 49, 11);
+    font-weight: bolder;
+    color: #FF6959;
     text-align: left;
 }
 
-h3 {
+h2 {
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
-    color: black;
+    color: #00B856;
     text-align: left;
 }
 
-h3#basico {
-    color: blueviolet;
+
+h1#principal {
+
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;    
+    text-align: center;
+    background-color: #59FFA7;
+    color: #B3291B;
 }
