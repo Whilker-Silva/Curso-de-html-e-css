@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    background-color: aqua;
+}
+
+main{
+    background-color: blueviolet;
+}
+
+h1 {
+    margin: 0px;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+
+    width: 100px;
+
+}
+
+a{
+        text-decoration: none;
+}
+
+div#titulos{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 150px;   
+    height: 400px; 
+    margin: 0px;
+}
+
+
+div#textos{
+    display: inline-block;
+    background-color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
+    width: 450px;
+    height: 400px;
+    
+    margin: 0px;
+}
+
+ul{
+ display: inline-block;
+ margin: 0px;
+}
+
+p{
+    margin: 0px
+}
