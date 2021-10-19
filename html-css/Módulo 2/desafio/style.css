@@ -66,7 +66,7 @@ header>p {
 nav {
     color: white;
     text-align: left;
-    margin: 0px;
+    margin: 0px 5px;
 }
 
 nav>a {
@@ -115,7 +115,7 @@ h3 {
     margin: 0px;
 }
 
-main>p {
+main>section>p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-indent: 20px;
