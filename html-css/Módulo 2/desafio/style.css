@@ -6,12 +6,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'titulo';
-    src: url('#') format('#');
-}
-
 /*###################################################################################################################################################*/
 
 /***********************************************COFIGURAÇÕES CSS GERAIS ******************************************************************************/
@@ -93,7 +87,8 @@ nav>a:hover {
 
 main {
     background-color: white;
-    width: 85%;
+    min-width: 280px;
+    max-width: 800px;
     margin: 0px auto 25px auto;
     padding-bottom: 15px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
@@ -137,6 +132,11 @@ main>section>ul>li>a::after {
 img {
     display: block;
     margin: auto;
+    width: 90%;
+}
+
+iframe{
+    width: 90%;
 }
 
 source {
@@ -200,6 +200,7 @@ footer {
 
 footer>p {
     margin: 0px;
+    
 }
 
 footer>p>a {
