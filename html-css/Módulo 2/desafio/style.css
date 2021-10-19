@@ -6,20 +6,26 @@
     font-weight: normal;
     font-style: normal;
 }
+
 /*###################################################################################################################################################*/
 
 /***********************************************COFIGURAÇÕES CSS GERAIS ******************************************************************************/
 
+:root {
+    --cor01: #2FA866;
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+}
+
 /*###################################################################################################################################################*/
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     background-color: #84E1AD;
     margin: 0px;
 }
 
 a {
-    color: #2FA866;
+    color: var(--cor01);
     font-weight: bold;
     text-decoration: none;
 }
@@ -68,6 +74,7 @@ nav>a {
     text-decoration: none;
     border-radius: 10px;
     padding: 8px 15px 8px 15px;
+    transition-duration: 1s;
 }
 
 nav>a::after {
@@ -117,8 +124,6 @@ main>section>p {
     padding: 0px 10px;
 }
 
-
-
 main>section>ul>li>a {
     color: black;
     text-decoration: underline;
@@ -128,14 +133,13 @@ main>section>ul>li>a::after {
     content: none;
 }
 
-
 img {
     display: block;
     margin: auto;
     width: 90%;
 }
 
-iframe{
+iframe {
     width: 90%;
 }
 
@@ -200,7 +204,6 @@ footer {
 
 footer>p {
     margin: 0px;
-    
 }
 
 footer>p>a {
